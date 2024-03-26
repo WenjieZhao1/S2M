@@ -3,6 +3,13 @@
 
 ![](/docs/final.png)
 
+> [**Segment Every Out-of-Distribution Object**](https://arxiv.org/abs/2311.16516v3)            
+> [Wenjie Zhao](https://www.linkedin.com/in/wenjie-zhao-7290b4298/), [Jia Li](https://github.com/LONZARK/), [Xin Dong](https://simonxin.com/), [Yu Xiang](https://yuxng.github.io/), [Yunhui Guo](https://yunhuiguo.github.io/)     
+> UT Dallas, Harvard          
+> CVPR 2024
+
+[[`arxiv`](https://arxiv.org/abs/2311.16516v3)] [[`bibtex`](#citation)] 
+
 ## Features
 * We propose S2M, a simple and general pipeline to generate the precise mask for OoD objects.
 * It eliminates the need to manually choose an optimal threshold for generating segmentation masks.
