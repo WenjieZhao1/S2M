@@ -1,3 +1,14 @@
+# Segment Every Out-of-Distribution Object
+**S**core **T**o **M**ask (**S2M**) is a simple and efficienty way to utilize anomaly score from current mainstream methods and improve their performance. Experiments demonstrate that S2M outperforms the state-of-the-art by approximately 20\% in IoU and 40\% in mean F1 score, on average.
+
+![](/docs/final.png)
+
+## Features
+* We propose S2M, a simple and general pipeline to generate the precise mask for OoD objects.
+* It eliminates the need to manually choose an optimal threshold for generating segmentation masks.
+* Our method is general and independent of particular anomaly scores, prompt generators, or promptable segmentation models.
+* S2M didn't produce any mask on the ID picture.
+
 ## Preparation
 Download the [checkpoint](https://drive.google.com/file/d/1r0U2yQYHBcqjxs162h5RAaDwDyMpEQqw/view?usp=drive_link) file and put it in `./tools`.
 
