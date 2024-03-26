@@ -1,0 +1,20 @@
+_BASE_: "../COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  ROI_HEADS:
+    BATCH_SIZE_PER_IMAGE: 512
+    NUM_CLASSES: 2
+DATASETS:
+  # TRAIN: ("OE_dataset_train",)
+  TRAIN: ("OOD_score_train",)
+  TEST: ("OOD_score_val",)
+SOLVER:
+  IMS_PER_BATCH: 4
+  BASE_LR: 0.00025
+  STEPS: (60000, 80000)
+  MAX_ITER: 148300  
+  CHECKPOINT_PERIOD: 7145
+INPUT:
+  MIN_SIZE_TRAIN: (800,)
+VERSION: 2
+OUTPUT_DIR: ./output
