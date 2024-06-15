@@ -75,10 +75,11 @@ Our project is implemented base on the following projects. We really appreciate 
 
 If our work has been helpful to you, we would greatly appreciate a citation.
 ```
-@article{zhao2023segment,
+@inproceedings{zhao2024segment,
   title={Segment Every Out-of-Distribution Object},
   author={Zhao, Wenjie and Li, Jia and Dong, Xin and Xiang, Yu and Guo, Yunhui},
-  journal={arXiv preprint arXiv:2311.16516},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3910--3920},
+  year={2024}
 }
 ```
